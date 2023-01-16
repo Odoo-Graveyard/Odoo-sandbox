@@ -17,7 +17,8 @@ Description related to library.
         'security/groups.xml',
         'security/ir.model.access.csv',
         'views/library_book.xml',
-        'static/src/view.scss',
+        'static/src/css/views.scss',
+        'static/src/css/views.css',
     ],
 
     # This demo data files will be loaded if db initialize with demo data (commented because file is not added in this example)
