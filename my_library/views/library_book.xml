@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <link rel="stylesheet" href="../static/src/view.scss"/>
+  <link rel="stylesheet" href="my_library/static/src/view.scss"/>
 
     <record id='library_book_action' model='ir.actions.act_window'>
         <field name="name">Library Books</field>
