@@ -38,7 +38,7 @@
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
-                <field name="author"/>
+                <field name="author_ids"/>
             </tree>
         </field>
         <link rel="stylesheet" href="my_library/static/src/css/views.css"/>
