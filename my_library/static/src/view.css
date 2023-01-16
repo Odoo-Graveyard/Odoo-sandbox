@@ -1,0 +1,6 @@
+@import "view.css";
+body > div.o_action_manager > div > div.o_control_panel > div.o_cp_bottom > div.o_cp_bottom_left > div > div > button.btn.btn-primary.o_list_button_add {
+  color: yellow;
+}
+
+/*# sourceMappingURL=view.css.map */
