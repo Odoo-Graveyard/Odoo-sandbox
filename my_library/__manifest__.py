@@ -13,5 +13,4 @@
  'depends': ['base'], 
  'data': ['views/library_book.xml'], 
  'demo': ['demo.xml'],
- 'images': ['static/description/ah.webp'],
 }
