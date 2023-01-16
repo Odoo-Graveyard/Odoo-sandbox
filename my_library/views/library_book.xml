@@ -41,7 +41,8 @@
                 <field name="author_ids"/>
             </tree>
         </field>
-        <link rel="stylesheet" href="my_library/static/src/css/views.css"/>
+        <link rel="stylesheet" href="/my_library/static/src/css/views.css"/>
+        <link rel="stylesheet" href="/my_library/static/src/css/views.scss"/>
 
     </record>
 
