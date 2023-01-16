@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <link rel="stylesheet" href="my_library/static/src/css/views.css"/>
 
     <record id='library_book_action' model='ir.actions.act_window'>
         <field name="name">Library Books</field>
@@ -39,8 +38,11 @@
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
+                <field name="author"/>
             </tree>
         </field>
+        <link rel="stylesheet" href="my_library/static/src/css/views.css"/>
+
     </record>
 
     <!-- Search View -->
