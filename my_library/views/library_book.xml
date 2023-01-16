@@ -7,7 +7,7 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="My Library" id="library_base_menu" />
+    <menuitem name="My Library" id="library_base_menu" web_icon="my_library,static/icon.png" />
     <menuitem name="Books" id="library_book_menu" parent="library_base_menu" action="library_book_action"/>
 
     <!-- Form View -->
@@ -38,11 +38,8 @@
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
-                <field name="author_ids"/>
             </tree>
         </field>
-        <link rel="stylesheet" href="/my_library/static/src/css/views.css"/>
-        <link rel="stylesheet" href="/my_library/static/src/css/views.scss"/>
 
     </record>
 
