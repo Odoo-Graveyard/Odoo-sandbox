@@ -3,4 +3,8 @@ body > div.o_action_manager > div > div.o_control_panel > div.o_cp_bottom > div.
   color: yellow;
 }
 
+.o_column_sortable {
+  color: yellow !important;
+}
+
 /*# sourceMappingURL=view.css.map */
