@@ -12,7 +12,7 @@ Description related to library.
     'category': 'Tools',
     'version': '14.0.1',
     'depends': ['base'],
-
+    'icon': '/my_library/static/icon.png',
     'data': [
         'security/groups.xml',
         'security/ir.model.access.csv',
