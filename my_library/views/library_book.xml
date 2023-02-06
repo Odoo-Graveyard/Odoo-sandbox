@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Path: my_library\views\library_book.xml -->
 <odoo>
 
     <record id='library_book_action' model='ir.actions.act_window'>
         <field name="name">Library Books</field>
         <field name="res_model">library.book</field>
         <field name="view_mode">tree,form</field>
-
     </record>
-    <!-- Web Icon-->
+
     <menuitem name="My Library" id="library_base_menu" web_icon="my_library,static/icon.png" />
     <menuitem name="Books" id="library_book_menu" parent="library_base_menu" action="library_book_action"/>
-
     <!-- Form View -->
     <record id="library_book_view_form" model="ir.ui.view">
         <field name="name">Library Book Form</field>
@@ -19,25 +16,25 @@
         <field name="arch" type="xml">
             <form>
                 <group>
-                <group>
-                    <field name="name"/>
-                    <field name="author_ids" widget="many2many_tags"/>
-                    <field name="state"/>
-                    <field name="pages"/>
-                    <field name="notes"/>
+                    <group>
+                        <field name="name"/>
+                        <field name="author_ids" widget="many2many_tags"/>
+                        <field name="state"/>
+                        <field name="pages"/>
+                        <field name="notes"/>
+                    </group>
+                    <group>
+                        <field name="short_name"/>
+                        <field name="date_release"/>
+                        <field name="date_updated"/>
+                        <field name="cover" widget="image" class="oe_avatar"/>
+                        <field name="reader_rating"/>
+                    </group>
                 </group>
                 <group>
-                    <field name="short_name"/>
-                    <field name="date_release"/>
-                    <field name="date_updated"/>
-                    <field name="cover" widget="image" class="oe_avatar"/>
-                    <field name="reader_rating"/>
-            </group>
-        </group>
-        <group>
-        <field name="description"/>
-        </group>
-    </form>
+                    <field name="description"/>
+                </group>
+            </form>
         </field>
     </record>
 
@@ -49,15 +46,8 @@
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
-                <!--xml field, for tree view -->
-                <field name= "author_ids"/>
-                 <!--Added not from book -->
-                <field name="short_name"/> 
-                <field name="notes"/>
-                <!-- END -->
             </tree>
         </field>
-
     </record>
 
     <!-- Search View -->
@@ -72,4 +62,5 @@
             </search>
         </field>
     </record>
+
 </odoo>
