@@ -22,6 +22,8 @@ Description related to library.
     'installable': True,
     'auto_install': True,
     'application': False,
+    'sequence': 1,
+    'auto_update': True,
     'assets': {
         'web.assets_backend': [
             'my_library/static/src/css/views.css',
