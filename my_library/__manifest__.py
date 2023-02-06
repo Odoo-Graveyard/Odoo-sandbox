@@ -17,7 +17,10 @@ Description related to library.
         'security/groups.xml',
         'security/ir.model.access.csv',
         'views/library_book.xml',
-    ],
+    ],  
+    'installable': True,
+    'auto_install': True,
+    'application': False,
 
     # This demo data files will be loaded if db initialize with demo data (commented because file is not added in this example)
     # 'demo': [
