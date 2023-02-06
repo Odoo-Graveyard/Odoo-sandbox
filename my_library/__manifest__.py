@@ -21,6 +21,10 @@ Description related to library.
     'installable': True,
     'auto_install': True,
     'application': False,
+    'assets': {
+        'web.assets_backend': [
+            'my_library/static/src/css/views.css',
+        ],
 
     # This demo data files will be loaded if db initialize with demo data (commented because file is not added in this example)
     # 'demo': [
