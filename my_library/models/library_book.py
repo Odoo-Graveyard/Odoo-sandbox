@@ -38,12 +38,12 @@ class LibraryBook(models.Model):
             rec_name = "%s (%s)" % (record.name, record.date_release)
             result.append((record.id, rec_name))
         return result
-        
+
     def coloring(self):
         for record in self:
-            if record.state == 'lost':
+            if record.state == 'Lost':
                 record.color = 4
-            elif record.state == 'available':
+            elif record.state == 'Available':
                 record.color = 10
             else:
                 record.color = 1
