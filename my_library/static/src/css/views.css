@@ -17,7 +17,7 @@ body {
 #ui-sortable {
   background-color: orange;
 }
-body > div.o_action_manager > div > div.o_content > div > div > table > tbody > tr > td {
+#div.o_action_manager > div > div.o_content > div > div > table > tbody > tr > td {
   background-color: orange;
 }
 /*# sourceMappingURL=views.css.map */
