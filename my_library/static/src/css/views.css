@@ -10,4 +10,7 @@
 .o_list_view {
   background-color:yellow !important;
 }
+div.ui-sortable {
+  background-color:yellow !important;
+}
 /*# sourceMappingURL=views.css.map */
