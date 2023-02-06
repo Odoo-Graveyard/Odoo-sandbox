@@ -36,7 +36,7 @@
     </record>
 
     <!-- Tree(list) View -->
-    <record id="library_book_view_tree" model="ir.ui.view" class="test_css">
+    <record id="library_book_view_tree" model="ir.ui.view">
         <field name="name">Library Book List</field>
         <field name="model">library.book</field>
         <field name="arch" type="xml">
