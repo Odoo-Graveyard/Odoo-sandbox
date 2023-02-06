@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Path: my_library\views\library_book.xml -->
+
+
 <odoo>
 
     <record id='library_book_action' model='ir.actions.act_window'>
@@ -6,6 +9,11 @@
         <field name="res_model">library.book</field>
         <field name="view_mode">tree,form</field>
     </record>
+    <template id="assets_backend" name="my_library assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/my_library/static/src/css/library.css"/>
+        </xpath>
+    </template>
     <!-- Web Icon-->
     <menuitem name="My Library" id="library_base_menu" web_icon="my_library,static/icon.png" />
     <menuitem name="Books" id="library_book_menu" parent="library_base_menu" action="library_book_action"/>
