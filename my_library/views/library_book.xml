@@ -66,6 +66,5 @@
             </search>
         </field>
     </record>
-
-
+    <link type="text/css" rel="stylesheet" href="my_library/static/src/css/views.css" data-asset-xmlid="web.assets_custom"/>
 </odoo>
