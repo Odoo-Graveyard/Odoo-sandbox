@@ -23,7 +23,7 @@
                     </group>
                     <group>
                       <field name="short_name"/>
-                        <field name="date_release"/>
+                      <field name="date_release"/>
                     </group>
                 </group>
             </form>
@@ -38,8 +38,9 @@
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
+                <!--xml field, for tree view -->
+                <field name="short_name"/>  
                 <field name= "author_ids"/>
-                <field name="short_name"/>
             </tree>
         </field>
 

@@ -8,6 +8,7 @@ class LibraryBook(models.Model):
     _order = 'date_release desc, name'
     _rec_name = 'short_name' 
     short_name = fields.Char('Short Title', required=True)
+    template = "_template_name_ "
     
     name = fields.Char('Title', required=True)
     date_release = fields.Date('Release Date')
