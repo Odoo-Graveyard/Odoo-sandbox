@@ -34,7 +34,11 @@
             </form>
         </field>
     </record>
-
+<template id="assets_backend" name="Library Book Assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <link rel="text/javascript" src="/my_library/static/src/css/views.css"></link>
+    </xpath>
+</template>
     <!-- Tree(list) View -->
     <record id="library_book_view_tree" model="ir.ui.view">
         <field name="name">Library Book List</field>
@@ -66,5 +70,4 @@
             </search>
         </field>
     </record>
-    <link type="text/css" rel="stylesheet" href="my_library/static/src/css/views.css" data-asset-xmlid="web.assets_custom"/>
 </odoo>
