@@ -1,10 +1,10 @@
-@import "view.css";
+@import "views.css";
 
 /* Path: my_library\static\src\css\view.css */
-.notes_css {
+.test_css {
   color:yellow;
 }
-#notes_css {
+#test_css {
   color:yellow;
 }
 /*# sourceMappingURL=views.css.map */

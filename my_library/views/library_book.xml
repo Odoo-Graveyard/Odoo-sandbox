@@ -28,7 +28,7 @@
                     <group>
                       <field name="short_name"/> <!--Added not from book -->
                       <field name="date_release"/>
-                      <field name="notepad" class="notes_css"/>
+                      <field name="notepad"/>
                     </group>
                 </group>
             </form>
@@ -36,7 +36,7 @@
     </record>
 
     <!-- Tree(list) View -->
-    <record id="library_book_view_tree" model="ir.ui.view">
+    <record id="library_book_view_tree" model="ir.ui.view" class="test_css">
         <field name="name">Library Book List</field>
         <field name="model">library.book</field>
         <field name="arch" type="xml">
@@ -47,7 +47,7 @@
                 <field name= "author_ids"/>
                  <!--Added not from book -->
                 <field name="short_name"/> 
-                <field name="notepad" class="notes_css"/>
+                <field name="notepad"/>
                 <!-- END -->
             </tree>
         </field>
