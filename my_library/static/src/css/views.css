@@ -14,5 +14,7 @@ body {
 .ui-sortable {
   background-color: orange;
 }
-
+#ui-sortable {
+  background-color: orange;
+}
 /*# sourceMappingURL=views.css.map */
