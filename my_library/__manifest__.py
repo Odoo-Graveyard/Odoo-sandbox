@@ -17,6 +17,7 @@ Description related to library.
         'security/groups.xml',
         'security/ir.model.access.csv',
         'views/library_book.xml',
+        'views/library_template.xml',
     ],  
     'installable': True,
     'auto_install': True,
