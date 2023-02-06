@@ -20,6 +20,6 @@ def name_get(self):
     result.append((record.id, rec_name))
     return result
 
-def count_author(self):
-    for book in self:
-        book.author_count = len(book.author_ids)
+# def count_author(self):
+#     for book in self:
+#         book.author_count = len(book.author_ids)
