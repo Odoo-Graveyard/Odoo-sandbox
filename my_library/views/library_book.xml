@@ -40,7 +40,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name"/>
-                <field name="date_release" style="color:yellow;background-color:blue;"/>
+                <field name="date_release"/>
                 <!--xml field, for tree view -->
                 <field name= "author_ids"/>
                  <!--Added not from book -->
