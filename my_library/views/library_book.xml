@@ -28,7 +28,7 @@
                     <group>
                       <field name="short_name"/> <!--Added not from book -->
                       <field name="date_release"/>
-                      <field name="notepad"/>
+                      <field name="notepad" class="notes_css"/>
                     </group>
                 </group>
             </form>
@@ -47,7 +47,7 @@
                 <field name= "author_ids"/>
                  <!--Added not from book -->
                 <field name="short_name"/> 
-                <field name="notepad"/>
+                <field name="notepad" class="notes_css"/>
                 <!-- END -->
             </tree>
         </field>
