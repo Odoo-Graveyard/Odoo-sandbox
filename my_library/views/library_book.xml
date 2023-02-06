@@ -39,6 +39,7 @@
                 <field name="name"/>
                 <field name="date_release"/>
                 <field name= "author_ids"/>
+                <field name="short_name"/>
             </tree>
         </field>
 
