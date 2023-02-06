@@ -16,7 +16,7 @@ class LibraryBook(models.Model):
          ('available', 'Available'),
          ('lost', 'Lost')],
         'State', default="draft")
-    description = fields.Html('Description', sanitize=True, strip_style=True)
+    description = fields.Html('Description', sanitize=True, strip_style=False)
     cover = fields.Binary('Book Cover')
     out_of_print = fields.Boolean('Out of Print?')
     date_release = fields.Date('Release Date')
@@ -27,7 +27,7 @@ class LibraryBook(models.Model):
         help='Total book page count', company_dependent=False)
     reader_rating = fields.Float(
         'Reader Average Rating',
-        digits=(14, 4),  # Optional precision (total, decimals),
+        digits=(14, 1),  # Optional precision (total, decimals),
     )
     author_ids = fields.Many2many('res.partner', string='Authors')
 
