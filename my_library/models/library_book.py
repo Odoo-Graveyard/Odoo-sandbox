@@ -49,4 +49,7 @@ class LibraryBook(models.Model):
                 record.color = 9
             else:
                 record.color = 0
-                
+    
+
+    color = fields.Integer(compute='state_color')
+
