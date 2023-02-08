@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <!-- Model -->
     <record id='library_book_action' model='ir.actions.act_window'>
         <field name="name">Library Books</field>
         <field name="res_model">library.book</field>
         <field name="view_mode">tree,form</field>
-        <!-- <field name="view_id" ref="library_book_view_tree"/>
-        <field name="search_view_id" ref="library_book_view_search"/> -->
     </record>
 
     <menuitem name="My Library" id="library_base_menu" web_icon="my_library,static/icon.png" />
