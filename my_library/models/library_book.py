@@ -45,11 +45,12 @@ class LibraryBook(models.Model):
         for record in self:
             if record.state == 'available' or record.state == 'Available':
                 record.color = 2
+            elif record.state == 'draft' or record.state == 'Not Available':
+                record.color = 5
+                
             elif record.state == 'lost' or record.state == 'Lost':
-                record.color = 9
+                record.color = 3
             else:
                 record.color = 0
-    
 
-    color = fields.Integer(compute='state_color')
-
+    color = fields.Integer(compute='state_color', string='Color Index')
