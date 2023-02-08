@@ -5,6 +5,20 @@
         <field name="name">Library Books</field>
         <field name="res_model">library.book</field>
         <field name="view_mode">tree,form</field>
+        <!-- <field name="view_id" ref="library_book_view_tree"/>
+        <field name="search_view_id" ref="library_book_view_search"/> -->
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new book.
+            </p>
+            <p>
+                <ul>
+                    <li>Books are organized by category.</li>
+                    <li>Use the search bar to find a book.</li>
+                    <li>Use the filters to narrow the list.</li>
+                </ul>
+            </p> 
+        </field>
     </record>
 
     <menuitem name="My Library" id="library_base_menu" web_icon="my_library,static/icon.png" />
