@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# this is odoo 14.0
 from odoo import models, fields
 
 
@@ -38,3 +39,8 @@ class LibraryBook(models.Model):
             rec_name = "%s (%s)" % (record.name, record.date_release)
             result.append((record.id, rec_name))
         return result
+    
+    def button_borrow(self):
+        self.ensure_one()
+        self.state = 'borrowed'
+        return True
