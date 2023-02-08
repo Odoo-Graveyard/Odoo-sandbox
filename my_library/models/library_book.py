@@ -43,9 +43,10 @@ class LibraryBook(models.Model):
     def state_color(self):
         """ This method used to customize color of the record """
         for record in self:
-            if record.state == 'available':
+            if record.state == 'available' or record.state == 'Available':
                 record.color = 2
-            elif record.state == 'lost':
+            elif record.state == 'lost' or record.state == 'Lost':
                 record.color = 9
             else:
                 record.color = 0
+                
