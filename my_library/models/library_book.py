@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# this is odoo 14.0
 from odoo import models, fields
 
 
@@ -38,19 +39,8 @@ class LibraryBook(models.Model):
             rec_name = "%s (%s)" % (record.name, record.date_release)
             result.append((record.id, rec_name))
         return result
-
- 
-    def state_color(self):
-        """ This method used to customize color of the record """
-        for record in self:
-            if record.state == 'available' or record.state == 'Available':
-                record.color = 2
-            elif record.state == 'draft' or record.state == 'Not Available':
-                record.color = 5
-                
-            elif record.state == 'lost' or record.state == 'Lost':
-                record.color = 3
-            else:
-                record.color = 0
-
-    color = fields.Integer(compute='state_color', string='Color Index')
+    
+    def button_borrow(self):
+        self.ensure_one()
+        self.state = 'borrowed'
+        return True
