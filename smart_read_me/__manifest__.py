@@ -11,7 +11,7 @@ Description related to library.
     'website': "https://github.com/alejandroatacho",
     'category': 'Tools',
     'version': '14.0.1',
-    'depends': ['website'],
+    'depends': ['base','website'],
     # 'icon': '/my_library/static/icon.png',
     'data': [
     ],  
@@ -20,9 +20,11 @@ Description related to library.
     'application': False,
     'sequence': 1,
     'auto_update': True,
+    'views': [ ],
     'assets': {
         'web.assets_frontend': [
-            'my_library/static/src/css/style1.css',
+            'my_library/static/src/css/my_library.css',
+            'my_library/static/src/scss/my_library.scss'
         ],
     },
 'qweb': [

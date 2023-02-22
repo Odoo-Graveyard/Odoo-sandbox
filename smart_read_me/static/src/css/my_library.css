@@ -1,0 +1,22 @@
+nav.navbar {
+  background-color: #1C2529 !important;
+}
+nav.navbar .navbar-nav .nav-link span {
+  color: #87e1ff;
+  font-weight: 600;
+}
+
+footer.o_footer {
+  background-color: #1C2529 !important;
+  color: #D3F4FF;
+}
+
+#wrap > section.s_text_image.pt80.pb88.o_colored_level > div > div > div.pt16.pb16.col-lg-7.o_colored_level {
+  display: hidden;
+}
+
+body {
+  background: #b94949;
+}
+
+/*# sourceMappingURL=my_library.css.map */

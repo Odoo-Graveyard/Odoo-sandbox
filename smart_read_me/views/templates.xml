@@ -1,0 +1,16 @@
+<odoo> 
+    <link href="/my_library/static/src/css/my_library.css"
+    rel="stylesheet"
+    type="text/css"/>
+    <link href="/my_library/static/src/scss/my_library.scss"
+    rel="stylesheet"
+    type="text/scss"/>
+   
+    <template id="assets_frontend" 
+    inherit_id="web.assets_frontend"> 
+    <xpath expr="." position="inside"> 
+    <!-- points 2 & 3 go here /--> 
+    </xpath> 
+    </template> 
+
+</odoo> 
