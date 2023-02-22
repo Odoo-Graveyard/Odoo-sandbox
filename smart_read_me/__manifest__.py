@@ -22,7 +22,7 @@ Description related to library.
     'auto_update': True,
     'assets': {
         'web.assets_frontend': [
-            'my_library/static/src/css/views.css',
+            'my_library/static/src/css/style1.css',
         ],
     },
 'qweb': [
