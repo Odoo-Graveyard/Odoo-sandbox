@@ -11,7 +11,7 @@ Description related to library.
     'website': "https://github.com/alejandroatacho",
     'category': 'Tools',
     'version': '14.0.1',
-    'depends': ['base'],
+    'depends': ['base','website','web'],
     'icon': '/my_library/static/icon.png',
     'data': [
         'security/groups.xml',
@@ -25,7 +25,8 @@ Description related to library.
     'sequence': 1,
     'auto_update': True,
     'assets': {
-        'web.assets_backend': [
+        'web.assets_frontend': [
+            # 'my_library/static/src/js/library.js',
             'my_library/static/src/css/views.css',
         ],
     },
