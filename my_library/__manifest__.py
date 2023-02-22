@@ -20,10 +20,10 @@ Description related to library.
         # 'views/library_template.xml',
     ],  
     'installable': True,
-    'auto_install': True,
+    'auto_install': False,
     'application': False,
     'sequence': 1,
-    'auto_update': True,
+    'auto_update': False,
     'assets': {
         'web.assets_frontend': [
             # 'my_library/static/src/js/library.js',
