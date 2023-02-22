@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
+    <!-- Model -->
     <record id='library_book_action' model='ir.actions.act_window'>
         <field name="name">Library Books</field>
         <field name="res_model">library.book</field>
@@ -42,7 +42,7 @@
     <record id="library_book_view_tree" model="ir.ui.view">
         <field name="name">Library Book List</field>
         <field name="model">library.book</field>
-        <field name="arch" type="xml">
+        <field name="arch" type="xml"></field>
             <tree>
                 <field name="name"/>
                 <field name="date_release"/>
@@ -51,7 +51,6 @@
                 <field name="pages"/>
                 <field name="reader_rating"/>
             </tree>
-        </field>
     </record>
 
     <!-- Search View -->

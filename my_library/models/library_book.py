@@ -40,7 +40,3 @@ class LibraryBook(models.Model):
             result.append((record.id, rec_name))
         return result
     
-    def button_borrow(self):
-        self.ensure_one()
-        self.state = 'borrowed'
-        return True
