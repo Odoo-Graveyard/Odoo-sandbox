@@ -8,7 +8,7 @@ Manage Library
 Description related to library.
     """,  # Supports reStructuredText(RST) format
     'author': "Hinamizawa",
-    'website': "http://www.example.com",
+    'website': "https://github.com/alejandroatacho",
     'category': 'Tools',
     'version': '14.0.1',
     'depends': ['base'],

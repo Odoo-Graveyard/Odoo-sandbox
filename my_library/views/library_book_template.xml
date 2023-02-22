@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<template id="assets_frontend" name="my_module assets" inherit_id="web.assets_frontend">    <xpath expr="." position="inside">
+<template id="assets_frontend" name="my_module assets" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside">
         <link rel="stylesheet" src="/my_library/static/src/css/views.css"></link>
+
     </xpath>
+
 </template>
