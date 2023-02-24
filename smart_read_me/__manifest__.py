@@ -20,7 +20,7 @@ Description related to library.
     'application': False,
     'sequence': 1,
     'auto_update': True,
-    'views': [ ],
+    'views': ['/my_library/static/src/xml/home.xml'],
     'assets': {
         'web.assets_frontend': [
             'my_library/static/src/css/my_library.css',
