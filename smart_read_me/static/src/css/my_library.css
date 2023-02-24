@@ -1,9 +1,6 @@
-nav.navbar {
+#top > nav {
   background-color: #1C2529 !important;
-}
-nav.navbar .navbar-nav .nav-link span {
-  color: #87e1ff;
-  font-weight: 600;
+  color: #D3F4FF;
 }
 
 footer.o_footer {
