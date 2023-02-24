@@ -19,16 +19,16 @@ Description related to library.
     'auto_install': True,
     'application': False,
     'sequence': 1,
-    'auto_update': True,
-    'views': ['/my_library/static/src/xml/home.xml'],
+    'views': [
+        'xml/home.xml'
+    ],
     'assets': {
         'web.assets_frontend': [
             'my_library/static/src/css/my_library.css',
             'my_library/static/src/scss/my_library.scss'
         ],
     },
-'qweb': [
-    'static/src/xml/*.xml',
-],
-
+    'qweb': [
+        'static/src/xml/templates.xml'
+    ]
 }
