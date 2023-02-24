@@ -29,6 +29,6 @@ Description related to library.
         ],
     },
     'qweb': [
-        'static/src/xml/templates.xml'
+        'static/src/views/templates.xml'
     ]
 }
