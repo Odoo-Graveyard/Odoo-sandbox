@@ -1,6 +1,6 @@
 from odoo import http
 
-class MyWebsite(http.Controller):
-    @http.route('/home', type='http', auth="public", website=True)
-    def my_page(self, **kw):
-        return http.request.render('website.home', {})
+class MyController(http.Controller):
+    @http.route('/test', auth='public', website=True)
+    def test_page(self, **kwargs):
+        return http.request.render('my_module.test_template', {})

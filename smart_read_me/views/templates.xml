@@ -1,16 +1,18 @@
-<odoo> 
-    <link href="/my_library/static/src/css/my_library.css"
-    rel="stylesheet"
-    type="text/css"/>
-    <link href="/my_library/static/src/scss/my_library.scss"
-    rel="stylesheet"
-    type="text/scss"/>
-   
-    <template id="assets_frontend" 
-    inherit_id="web.assets_frontend"> 
-    <xpath expr="." position="inside"> 
-    <!-- points 2 & 3 go here /--> 
-    </xpath> 
-    </template> 
+<!-- Test Template -->
+<odoo>
+    <template id="test_template" name="Test Template">
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>This is a test template!</h1>
+                <p>It's designed to help you get started with Odoo website development.</p>
+            </div>
+            <div class="test">
+                <div>Hey</div>
+                <div>Hi</div>
+                <div>Hallo</div>
+            </div>
+        </t>
+        <link href="/smart_read_me/static/src/css/my_library.css" rel="stylesheet" type="text/css"/>
 
-</odoo> 
+    </template>
+</odoo>
