@@ -38,10 +38,17 @@
                     </div>
                 </div>
             </div>
-            <link rel="stylesheet" href="/hina_web/static/src/css/style.css" />
+            <!-- <link rel="stylesheet" href="/hina_web/static/src/css/style.css" /> -->
 
         </t>
-        <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script>
+        <!-- <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script> -->
 
+    </template>
+
+    <template id="assets_frontend" name="Assets Frontend" inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/hina_web/static/src/css/style.css" />
+            <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script>
+        </xpath>
     </template>
 </odoo>
