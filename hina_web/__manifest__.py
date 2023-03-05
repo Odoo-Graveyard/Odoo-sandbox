@@ -10,6 +10,7 @@
     'assets': {
         'web.assets_frontend': [
             'hina_web/static/src/css/main.css',
+            'hina_web/static/src/js/web_calc.js',
         ],
     },
 }
