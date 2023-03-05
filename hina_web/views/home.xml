@@ -5,7 +5,7 @@
                 <div class="title">
                     <h1>
                         Calculator</h1>
-                    <form class="main_container_parent" method="POST">
+                    <form class="main_container_parent" method="POST" onsubmit="return yes();">
                         <div>
                             <label for="input1">Input 1</label>
                             <input type="number" id="input1" name="input1"
@@ -17,6 +17,7 @@
                                 placeholder="Write in here!" />
                         </div>
                         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                        <br></br>
                         <div class="button_js_container">
                             <button class="button_js" type="submit">Calculate
                                 Now!</button>
@@ -38,17 +39,14 @@
                     </div>
                 </div>
             </div>
-            <!-- <link rel="stylesheet" href="/hina_web/static/src/css/style.css" /> -->
-
         </t>
-        <!-- <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script> -->
-
     </template>
-
+    <!-- This togheter with manifest.py sets the website css/js working -->
     <template id="assets_frontend" name="Assets Frontend" inherit_id="website.assets_frontend">
         <xpath expr="." position="inside">
             <link rel="stylesheet" href="/hina_web/static/src/css/main.css" />
             <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script>
+
         </xpath>
     </template>
 </odoo>
