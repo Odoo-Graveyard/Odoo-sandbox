@@ -4,7 +4,7 @@
             <div class="main_container">
                 <div class="title">
                     <h1>
-                        Calculator</h1>
+                        Calculator Odoo Version</h1>
                     <form class="main_container_parent" method="POST" onsubmit="return yes();">
                         <div>
                             <label for="input1">Input 1</label>
