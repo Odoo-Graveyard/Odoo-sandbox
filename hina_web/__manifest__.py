@@ -7,7 +7,7 @@
     'author': 'Hinamizawa (alejandroatacho)',
     'website': 'https://github.com/alejandroatacho',
     'license': 'AGPL-3',
-    'images': ['hina_web/static/src/img/hinamizawa.png'],
+    'images': ['static/src/img/hinamizawa.png'],
     'depends': ['base', 'website', 'web'],
     'data': [
         'views/home.xml',
