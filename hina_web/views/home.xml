@@ -38,6 +38,10 @@
                     </div>
                 </div>
             </div>
+            <link rel="stylesheet" href="/hina_web/static/src/css/style.css" />
+
         </t>
+        <script type="text/javascript" src="/hina_web/static/src/js/web_calc.js"></script>
+
     </template>
 </odoo>
