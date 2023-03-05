@@ -1,5 +1,13 @@
 {
-    'name': 'My Website',
+    'name': 'My Website Injector',
+    'version': '1.0',
+    'category': 'Website',
+    'summary': 'My Website Injector for XML/SASS/JS/Python',
+    'description': 'My Website Injector for XML/SASS/JS/Python',
+    'author': 'Hinamizawa (alejandroatacho)',
+    'website': 'https://github.com/alejandroatacho',
+    'license': 'AGPL-3',
+    'images': ['hina_web/static/src/img/hinamizawa.png'],
     'depends': ['base', 'website', 'web'],
     'data': [
         'views/home.xml',
