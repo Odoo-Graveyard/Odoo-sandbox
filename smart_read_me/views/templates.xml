@@ -1,6 +1,6 @@
 <!-- Test Template -->
 <odoo>
-    <template id="test_template" name="Test Template">
+    <template id="test_template" name="Test Template" data-website-menu="test">
         <t t-call="website.layout">
             <div class="container">
                 <h1>This is a test template!</h1>
