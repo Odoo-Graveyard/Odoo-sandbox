@@ -1,0 +1,10 @@
+<odoo>
+    <template id="home_page" name="Home Page">
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>Welcome to my website!</h1>
+                <p>This is a test page.</p>
+            </div>
+        </t>
+    </template>
+</odoo>
