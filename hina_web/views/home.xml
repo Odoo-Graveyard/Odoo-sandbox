@@ -1,8 +1,7 @@
 <odoo>
     <template id="home_page" name="Home Page">
         <t t-call="website.layout">
-            <div class="main_container"
-                style="background-image: url('../static/src/img/hinamizawa.png');">
+            <div class="main_container">
                 <div class="title">
                     <h1>
                         Calculator</h1>
