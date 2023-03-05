@@ -2,7 +2,7 @@
     <template id="home_page" name="Home Page">
         <t t-call="website.layout">
             <div class="main_container"
-                style="background-image:url('static/src/img/Functional_Programming_In_Javascript.png');">
+                style="background-image: url('../static/src/img/hinamizawa.png');">
                 <div class="title">
                     <h1>
                         Calculator</h1>
