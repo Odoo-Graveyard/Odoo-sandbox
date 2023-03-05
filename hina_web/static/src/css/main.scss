@@ -1,41 +1,13 @@
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.container h1 {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.container p {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 50px;
-}
-
-.test {
-  display: flex;
-  justify-content: center;
-}
-
-.test div {
-  background-color: #ddd;
-  padding: 10px;
-  margin-right: 10px;
-}
-
 * {
   // margin: 0;
   // padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .title {
   text-align: center;
+
   h1 {
     border-style: solid;
     border-width: 3px;
@@ -44,17 +16,17 @@
     border-radius: 5px;
     color: white;
   }
+
   // border-style: solid;
   // border-width: 3px;
   // border-color: white;
   // border-radius: 5px;
 }
+
 .main_container {
   width: 500px;
   height: 500px;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
+  border: 1px solid black;
   margin: 0 auto;
   background-image: url("img/Functional_Programming_In_Javascript.png");
   background-repeat: no-repeat;
@@ -99,6 +71,7 @@
   position: relative;
   top: 90px;
 }
+
 .profile {
   // top: 50px;
   position: relative;
@@ -113,6 +86,7 @@
     color: black;
     padding-left: 30px;
   }
+
   .profile_values {
     border-style: solid;
     border-radius: 50%;
@@ -120,11 +94,12 @@
     height: 150px;
     padding: 10px;
   }
+
   .profile_values img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    //   background-image: url(img/hinamizawa.png);
+    background-image: url("/hina_web/static/description/Functional_Programming_In_Javascript.png");
   }
 }
 
