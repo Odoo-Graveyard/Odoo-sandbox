@@ -1,7 +1,7 @@
 <odoo>
     <template id="home_page" name="Home Page">
         <t t-call="website.layout">
-            <div class="main_container">
+            <div class="main_container" style="background-color:green;">
                 <div class="title">
                     <h1>Calculator</h1>
                     <form class="main_container_parent" method="POST">
