@@ -14,7 +14,9 @@
   border-radius: 5px;
   color: white;
 }
-
+.container {
+  background-color:grey;
+}
 .main_container {
   width: 500px;
   height: 500px;
